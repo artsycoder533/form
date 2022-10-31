@@ -162,7 +162,8 @@ export default function Home() {
             <Image
               alt="form-learn"
               src={img}
-              fill
+              priority
+              fill="true"
               className="object-cover"
             />
           </div>
