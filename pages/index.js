@@ -57,7 +57,7 @@ export default function Home() {
         <form
           onSubmit={formik.handleSubmit}
           className="bg-white flex rounded-lg w-1/2">
-          <div className="flex-1 text-gray-700 p-20">
+          <div className="flex-1 text-gray-700 p-20 w-1/2">
             <h1 className="text-3xl pb-2">Lets get started</h1>
             <p className="text-lg text-gray-500">
               Join our E-learning platform today and unlock over 500+ courses
@@ -83,7 +83,7 @@ export default function Home() {
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
                   placeholder="Enter your name"
-                  className="border-1 border-gray-500 p-2 rounded-md w-3/4 focus:border-teal-50 focus:ring-teal-500"
+                  className="border-1 border-gray-500 p-2 rounded-md w-full focus:border-teal-50 focus:ring-teal-500"
                 />
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 placeholder="Enter your email"
-                className="border-1 border-gray-500 p-2 rounded-md w-3/4 focus:border-teal-50 focus:ring-teal-500"
+                className="border-1 border-gray-500 p-2 rounded-md w-full focus:border-teal-50 focus:ring-teal-500"
               />
             </div>
             <div className="pb-4">
@@ -117,7 +117,7 @@ export default function Home() {
                 name="country"
                 value={formik.values.country}
                 onChange={formik.handleChange}
-                className="border-1 border-gray-500 p-2 rounded-md w-3/4 focus:border-teal-50 focus:ring-teal-500">
+                className="border-1 border-gray-500 p-2 rounded-md w-full focus:border-teal-50 focus:ring-teal-500">
                 <option>United States</option>
                 <option>Mexico</option>
                 <option>Germany</option>
@@ -137,7 +137,7 @@ export default function Home() {
                   ? formik.errors.terms
                   : "Terns of service:"}
               </label>
-              <div className="flex items-center gap-2">
+              <div className="flex  gap-2">
                 <input
                   type="checkbox"
                   name="terms"
@@ -158,15 +158,15 @@ export default function Home() {
               Start Learning Today
             </button>
           </div>
-          {/* <div className="flex-1 relative">
+          <div className="flex relative w-1/2">
             <Image
               alt="form-learn"
               src={img}
               priority
               fill="true"
-              className="object-cover"
+              className="object-cover rounded-lg"
             />
-          </div> */}
+          </div>
         </form>
       </main>
     </m.div>
