@@ -135,9 +135,9 @@ export default function Home() {
                 }`}>
                 {formik.touched.terms && formik.errors.terms
                   ? formik.errors.terms
-                  : "Terns of service:"}
+                  : "Terms of service:"}
               </label>
-              <div className="flex  gap-2">
+              <div className="flex gap-2">
                 <input
                   type="checkbox"
                   name="terms"

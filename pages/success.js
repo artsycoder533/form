@@ -34,7 +34,9 @@ export default function Success() {
           We have sent you an email to {router.query.email}. We will get back to
           you as soon as we can!
         </p>
-        <Link href="/" className="mt-4 block text-blue-700 font-medium">&larr; Back to Home</Link>
+        <Link href="/">
+          <a className="py-4 block text-blue-700 font-medium">&larr; Back to Home</a>
+        </Link>
         <Confetti gravity={0.2} numberOfPieces={pieces} />
       </div>
     </m.main>
