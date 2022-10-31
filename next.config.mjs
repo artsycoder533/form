@@ -7,7 +7,7 @@ const nextConfig = {
     path: "",
   },
   // assetPrefix: "/",
-  assetPrefix: "./forms",
+  assetPrefix: "./form",
 };
 
 export default nextConfig;
