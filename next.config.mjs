@@ -6,8 +6,9 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  assetPrefix: "/",
-  // assetPrefix: "./form",
+  // assetPrefix: "/",
+  // when hosting on gh pages you have to change the assetPrefix to then name of your repo
+  assetPrefix: "./form",
 };
 
 export default nextConfig;
