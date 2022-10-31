@@ -158,7 +158,7 @@ export default function Home() {
               Start Learning Today
             </button>
           </div>
-          <div className="flex-1 relative">
+          {/* <div className="flex-1 relative">
             <Image
               alt="form-learn"
               src={img}
@@ -166,7 +166,7 @@ export default function Home() {
               fill="true"
               className="object-cover"
             />
-          </div>
+          </div> */}
         </form>
       </main>
     </m.div>
